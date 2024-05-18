@@ -3,74 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfolio</title>
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Incluindo Font Awesome para os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Meu Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#perfil">Perfil</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="perfil">
-        <div class="container">
-            <h2>Perfil</h2>
-            <p>Meu nome é [Seu Nome] e sou um desenvolvedor web apaixonado por criar soluções criativas e eficientes.</p>
-        </div>
-    </section>
-
-    <section id="projetos">
-        <div class="container">
-            <h2>Projetos</h2>
-            <div class="projeto">
-                <h3>Projeto 1</h3>
-                <p>Descrição do projeto.</p>
-                <a href="#">Ver Projeto</a>
-            </div>
-            <div class="projeto">
-                <h3>Projeto 2</h3>
-                <p>Descrição do projeto.</p>
-                <a href="#">Ver Projeto</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="habilidades">
-        <div class="container">
-            <h2>Habilidades</h2>
+        <nav>
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>SQL</li>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <p>Descubra meus projetos e habilidades.</p>
+    </section>
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Meus Projetos</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1.</p>
+            </div>
+            <div class="project">
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto 2.</p>
+            </div>
+            <div class="project">
+                <h3>Projeto 3</h3>
+                <p>Descrição do projeto 3.</p>
+            </div>
         </div>
     </section>
-
-    <section id="contato">
-        <div class="container">
-            <h2>Contato</h2>
-            <p>Você pode me contatar através do email: meuemail@example.com</p>
+    <section id="contact">
+        <h2>Contato</h2>
+        <div class="social-icons">
+            <a href="https://github.com/seuusuario" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/seuusuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:seuemail@exemplo.com"><i class="fas fa-envelope"></i></a>
         </div>
     </section>
-
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Meu Portfolio</p>
-        </div>
+        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
     </footer>
-
-    <script src="script.js" defer></script>
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    <script src="scripts.js"></script>
 </body>
 </html>
